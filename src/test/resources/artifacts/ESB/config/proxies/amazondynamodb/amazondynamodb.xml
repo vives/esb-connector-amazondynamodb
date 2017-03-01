@@ -16,7 +16,8 @@
  ~  specific language governing permissions and limitations
  ~  under the License.
 -->
-<proxy xmlns="http://ws.apache.org/ns/synapse" name="amazondynamodb" startOnLoad="true" statistics="disable" trace="disable"
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="amazondynamodb" startOnLoad="true" statistics="disable"
+       trace="disable"
        transports="https,http">
     <target>
         <inSequence>

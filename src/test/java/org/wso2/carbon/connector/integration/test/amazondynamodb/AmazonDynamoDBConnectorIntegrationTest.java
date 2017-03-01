@@ -29,6 +29,9 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Integration test class for AmazonDynamoDB connector
+ */
 public class AmazonDynamoDBConnectorIntegrationTest extends ConnectorIntegrationTestBase {
 	private Map<String, String> esbRequestHeadersMap = new HashMap<String, String>();
 	private static int SLEEP_TIME;
